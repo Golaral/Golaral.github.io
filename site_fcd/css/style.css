@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+.layout-header {
+    z-index: 100;
+    position: sticky;
+    background-color: white;
+}
+
+.region-header_sticky_content {
+    transition-delay: 0s;
+    transition-duration: .25s;
+    transition-property: height;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    max-width: inherit;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+.region-header_sticky .region-header_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.region-header_sticky #block-fcd-logo a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.region-header_sticky #block-fcd-logo a img {
+    width: 60px;
+}
+
+.region-header_sticky .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    white-space: nowrap;
+}
+
+.region-header_right {
+    justify-content: right;
+}
+body {
+    background-color: beige;
+    line-height: 1;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+nav {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
